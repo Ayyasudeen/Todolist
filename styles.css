@@ -1,0 +1,32 @@
+body {
+  background: rgb(5, 101, 143);
+}
+.delete {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 400px;
+}
+
+/* For input box text and bg-color change while clicking */
+/* input[type=text],This is for out of focus */
+input[type="text"]:focus {
+  /* This is for infocus */
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.todos li {
+  background: #033e63;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
